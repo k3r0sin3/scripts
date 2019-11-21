@@ -2,7 +2,7 @@
 
 # File: 	filedecompression.sh
 # Name: 	K3r0sin3
-# Github: https://github.com/k3r0sin3
+# Github: 	https://github.com/k3r0sin3
 # Usage:	./filedecompression.sh
 # Note:		The file being decompressed must be the file with the latest changes in the directory ("ls -t | head -1" will confirm)
 
