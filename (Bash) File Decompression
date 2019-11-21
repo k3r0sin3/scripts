@@ -8,7 +8,7 @@
 
 
 #Ask the user which file they want to decompress
-echo "Which file would you like me to decompress? I need the full filename. "This could take a while, so grab a coffee while I decompress it!"
+echo "Which file would you like me to decompress? I need the full filename. This could take a while, so grab a coffee while I decompress it!"
 read filename 
 
 myZip=$filename
