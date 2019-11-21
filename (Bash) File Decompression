@@ -4,7 +4,7 @@
 # Name: 	K3r0sin3
 # Github: https://github.com/k3r0sin3
 # Usage:	./filedecompression.sh
-# Note:		Make a separate directory and move this script and that file to that directory. It won't work with other files in the directory!
+# Note:		The file being decompressed must be the file with the latest changes in the directory ("ls -t | head -1" will confirm)
 
 
 #Ask the user which file they want to decompress
