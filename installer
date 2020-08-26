@@ -10,16 +10,9 @@ vim ~/.profile
 sudo visudo /etc/sudoers
 # append ":/home/kali/.local/bin" to the end of secure_path line
 sudo apt install -y seclists gobuster oscanner smtp-user-enum tnscmd10g snmp sipvicious wkhtmltopdf
+sudo apt install -y unicornscan
 #need to address wordlists issue, redirecting script to a cleaned Naxxatoe wordlist: https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/ 
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
-#need to fix script to account for unicornscan being depreciated
-
 ### $ autorecon <IP>
-
-git clone https://github.com/NotSoSecure/udp-hunter
-cd udp-hunter/
-pip3 install -r requirements.txt
-
-### $ python3 udp-hunter.py --host=<IP> --output=<IPoutput>.txt
 
 pip3 install h8mail
