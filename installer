@@ -1,4 +1,5 @@
 # works better as a pasteable than as a script
+# download AutoRecon 
 sudo apt update
 sudo apt install -y python-pip
 sudo apt install -y python3-pip
@@ -9,10 +10,16 @@ vim ~/.profile
 # alias sudo="sudo env \"PATH=$PATH\""  
 sudo visudo /etc/sudoers
 # append ":/home/kali/.local/bin" to the end of secure_path line
-sudo apt install -y seclists gobuster oscanner smtp-user-enum tnscmd10g snmp sipvicious wkhtmltopdf
-sudo apt install -y unicornscan
-#need to address wordlists issue, redirecting script to a cleaned Naxxatoe wordlist: https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/ 
+sudo apt install -y seclists gobuster oscanner smtp-user-enum tnscmd10g snmp sipvicious wkhtmltopdf unicornscan
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
+#may need to address wordlists issue, redirecting script to a cleaned Naxxatoe wordlist: https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/ 
 ### $ autorecon <IP>
 
+firefox https://www.utorrent.com/downloads/linux
+
 pip3 install h8mail
+sudo apt-get install transmission
+firefox https://haveibeenpwned.com/Passwords
+#download the latest version of the password files; it will take a while
+cd ~/Downloads/; 
+7z x pwned-passwords-*.7z   #this will take a while too
